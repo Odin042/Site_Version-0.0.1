@@ -82,7 +82,7 @@ body{
     width: 38%;
     border-radius: 45%;
     margin-top: 25%;
-    margin-left: 65%;
+    margin-left: 55%;
     animation-name: profile-pic;
     animation-duration: 3s;
 }
@@ -97,7 +97,7 @@ body{
     font-family: 'Odibee Sans', cursive;
     font-size: 150px;
     margin-top: 200px;
-    margin-left: 10%;
+    margin-left: -2%;
     text-transform: uppercase;
     font-weight: 400;
     line-height: 115px; /* controla o espaçamento das linhas */
@@ -109,7 +109,7 @@ body{
     text-transform: uppercase;
     font-weight:100;
     margin-top: -60px;
-    margin-left: 10%;
+    margin-left: -2%;
     
 }
 .profile-title h3 {
@@ -118,6 +118,7 @@ body{
     font-weight: 100;
     margin-top: 0px;
     text-align: center;
+    margin-right: 20%;
     
 }
 
@@ -247,7 +248,7 @@ body{
     margin-top: 0;
     font-size: 100px;
     text-align: center;
-    margin-right: 160%;
+    margin-right: 120%;
     margin-left: 38%;
 }
 .profile-title h2 {
