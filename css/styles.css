@@ -1,0 +1,306 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #2b2b2b;
+    font-family: 'Odibee Sans', cursive;
+    font-family: 'Rajdhani', sans-serif;
+    
+}
+
+.navegation ul{
+    margin-top: 0;
+    list-style: none;
+    padding-left: 0;
+    text-align: right;
+    height:  50px;
+}
+
+.navegation li{
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 50px;
+    font-size: 16px;
+
+}
+
+.navegation{
+    color: white;
+    height: 50px;
+    animation-name: navegation;
+    animation-duration: 4s;
+}
+.navegation a {
+    color: white;
+    text-decoration: nome;
+}
+.navegation a:hover{
+    color: #f27609;
+}
+.navegation li.iconMenu {
+    display: none;
+
+}
+
+.navegation li.iconMenu:hover {
+    color: #f27609;
+    cursor: poiter;
+    
+}
+
+.capa{
+    color: white;
+}
+.capa spam {
+    color:darkgoldenrod;
+    display: block;
+    
+}
+
+.capa div{
+    display: inline-block;
+    height: 900px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    min-width:  768px;
+    max-width: 120px;
+    
+    
+}
+
+.profile-pic{
+    width: 100%;
+    text-align: center;
+    
+
+}
+.profile-pic img {
+    width: 38%;
+    border-radius: 45%;
+    margin-top: 25%;
+    margin-left: 65%;
+    animation-name: profile-pic;
+    animation-duration: 3s;
+}
+
+.profile-title {
+    vertical-align:  top;
+    width: 59%;
+    animation-name: profile-title;
+    animation-duration: 3s;
+}
+.profile-title h1{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 150px;
+    margin-top: 200px;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 115px; /* controla o espaçamento das linhas */
+
+}
+.profile-title h2 {
+    font-size: 60px;
+    font-family: 'Odibee Sans', cursive;
+    text-transform: uppercase;
+    font-weight:100;
+    margin-top: -60px;
+    margin-left: 10%;
+    
+}
+.profile-title h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 0px;
+    text-align: center;
+    
+}
+
+.main{
+    padding-top: 80px;
+    padding-right: 180px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    animation-name: main;
+    animation-duration: 3s;
+}
+
+.cv-pic {
+    float:none;
+    width: 80%;
+}
+
+.main h1{
+    color: white;
+    font-weight: normal;
+
+}
+.main h2{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.main h3 {
+    color: #f27609;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.rodape h4{
+    color: #6A706E;
+    text-align: center;
+    margin-inline-end: auto;
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: 360px;
+}
+.rodape h5{
+    color: #6A706E;
+    font-family: 'Rajdhani', sans-serif;
+    text-align:right;
+    padding-bottom: 150px;
+}
+.rodape-home {
+    color:white;
+    text-align: center;
+    margin-inline-end: auto;
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: 90px;
+}
+.rodape a{
+    color: #f27609  
+}
+.main p{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.road {
+    list-style: none;
+    padding-left: 0;
+    color: gray;
+}
+.road li{
+    display: inline-block;
+}
+.social-midia{
+    width: 50px;
+}
+.whatsapp {
+    margin-right: 2px;
+    width: 20px;
+    padding-top: 10px;
+
+}
+
+@keyframes profile-pic {
+    0% {opacity: 0; transform: translate(0px,20px)}
+    100% {opacity: 1; transform: translate(0px,0px)}
+}
+
+@keyframes profile-title {
+    0% {opacity: 0; transform: translate(0px,-20px)}
+    100% {opacity: 1; transform: translate(0px,0px)}
+}
+
+@keyframes main {
+    0% {opacity: 0; transform: translate(20px,0px)}
+    100% {opacity: 1; transform: translate(0px,0px)}
+}
+@keyframes navegation {
+    0% {opacity: 0; }
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+
+@media (max-width : 1200px) {
+
+.navegation li {
+  display: none;
+}
+
+.navegation li.iconMenu {
+  display: inline-block;
+}
+.profile-pic {
+  width: 70%;
+        
+}
+.profile-pic img {
+    margin-top: 0;
+    max-width: 50%;
+    margin-left: 30%;
+}
+.profile-title {
+  width: 100%;
+}
+.profile-title h1{
+    margin-top: 0;
+    font-size: 100px;
+    text-align: center;
+    margin-right: 160%;
+    margin-left: 38%;
+}
+.profile-title h2 {
+    text-align: center;
+    font-size: 280%;
+    margin-top: 0%;
+    margin-left: 25%;
+    
+}
+
+.capa div{
+  display: block;
+  height: 100%;
+}
+.rodape-home {
+    color:#6A706E;
+    text-align:center
+    
+}
+
+
+.main{
+    padding-top: 10px;
+    padding-right: 5%;
+    padding-bottom: 40px;
+    padding-left: 5%;
+    
+}
+.main p{
+    text-align: left;
+}
+.cv-pic{
+    float: none;
+    max-width: 100%;
+
+}
+.menujs {
+     height: auto;
+}
+
+.menujs ul {
+    height: auto;
+    text-align: center;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.menujs li {
+    display: block;
+    border-bottom: solid grey 1px;
+}
+
+
+
+}
+
